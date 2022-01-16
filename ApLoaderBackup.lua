@@ -14,7 +14,7 @@ local myPod = require(4460787902)
 
 function httpe()
     local s = pcall(function()
-        game:GetService('HttpService'):GetAsync('http://www.google.com/%27) 
+        game:GetService('HttpService'):GetAsync('http://www.google.com/%27') 
     end)
     return s
 end
